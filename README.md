@@ -27,11 +27,11 @@
 
    >nano list_users.sh
 
-![Opening nano](images/open_nano.png)
+![Opening nano](images/open_nano_s.png)
 
 >When Nano opens you will see it has it's own menu. 
 
-![Opening nano](images/nano_opened.png)
+![Opening nano](images/nano_opened_s.png)
 
 
 ---
@@ -45,7 +45,7 @@ Copy and paste or write this script into the nano
 awk -F: '{ print $1 ":" $6 }' /etc/passwd
 ```
 
-![Script in nano](images/script_written.png)
+![Script in nano](images/script_written_s.png)
 
 This will select the two fields we are interested in $1 _(name)_ and $6 _(directory)_.
 
@@ -65,7 +65,7 @@ In order to allow the script to run you need to make it executable. Otherwise yo
 ```
 chmod +x list_users.sh
 ```
-![Making executable](images/running_chmod.png)
+![Making executable](images/running_chmod_s.png)
 
 ---
 
@@ -76,15 +76,15 @@ now you can run the script and it should provide name and directories.
 ```
 ./list_users.sh
 ```
-![Script output](images/script_output.png)
+![Script output](images/script_output_s.png)
 ---
 
 
 # Question #2
 
-## We have sent you an image named `git_history.v3.png` showing a Git commit graph. What sequence of Git commands could have produced the commit graph depicted in the image?
+## _We have sent you an image named `git_history.v3.png` showing a Git commit graph. What sequence of Git commands could have produced the commit graph depicted in the image?_
 
-![Example of commit history](git_history.v3.png)
+![Example of commit history](images/git_history.v3_S.png)
 
 ---
 
@@ -138,16 +138,14 @@ git commit -m "fourth commit"
 
 # Question #3
 
-## Write a brief blog post for GitLab that explains what Git is and what it can do for you. (Note: This is just a scenario for you to demonstrate your written skills and ability to explain technical topics. We are not using these assessments for anything other than the recruitment process.).
+## _Write a brief blog post for GitLab that explains what Git is and what it can do for you. (Note: This is just a scenario for you to demonstrate your written skills and ability to explain technical topics. We are not using these assessments for anything other than the recruitment process)._
 
-![Title banner with Git logo, GitLab logo, and author Tom Burns-T](images/blog_banner.png)
-
-
+![Title banner with Git logo, GitLab logo, and author Tom Burns-T](images/blog_banner_s.png)
 
 
-Hey, I’m Tom 👋
 
-I’ve been asked to write a blog post for [GitLab](https://gitlab.com) about Git:  
+
+## Hey, I’m Tom 👋 I’ve been asked to write a blog post for [GitLab](https://gitlab.com) about Git:  
 **What is it? What does it actually do for you?**
 
 Git is a tool — specifically, something called version control. I remember the first time I heard that phrase. One vague explanation led to another, and I still wasn’t sure what it actually meant.
@@ -168,6 +166,8 @@ Git lets you:
 - Go back to earlier versions
 - Collaborate with others without stepping on each other’s toes
 
+![save point from ff7 and bookmarked books](images/save_point.png)
+
 Imagine a team working together on a piece of software. To keep things stable, they don’t all edit the same copy of the code. Instead, they each create a **branch** — a separate version of the project — to work on specific features.
 
 Once a feature is ready, they submit it for review. If everything looks good, it’s **merged** into the main branch — the stable version of the code.
@@ -176,9 +176,11 @@ Once a feature is ready, they submit it for review. If everything looks good, it
 
 ## Why It Matters
 
-Mistakes happen. That’s normal.
+Mistakes happen. That’s normal. This is all part of the learning process when it comes to working in a team. You will find that something may work on your machine that after pushing causes a merging error. Usually it's not a big issue and can be resolved at the point of merging. Other times it can be an something after the merge has taken place. Luckily your working with version control so you can revert or rewind the clock back to a working version and hopefully figure out what the bug was. 
 
-With Git, you can trace exactly what changed, when, and who did it. You can fix issues or roll back to a working version — without disrupting the whole team.
+![Rewind](images/rewind.png)
+
+With Git, you can trace exactly what changed, when, and who did it. You can fix issues or roll back to a working version — without disrupting the whole team. 
 
 ---
 
@@ -189,6 +191,8 @@ It gives you:
 - A safety net when things go wrong
 - A timeline of every step you and your team take
 
+![safety net image](images/safety_net.png)
+
 
 
 So when I say *Git is a version control tool*, I hope it now means something more useful than it did the first time you heard it.
@@ -197,7 +201,7 @@ So when I say *Git is a version control tool*, I hope it now means something mor
 ---
 # Question #4
 
-## Tell us about a recent issue you debugged or a problem you solved. How did you go about debugging it? What tools did you use? What was the outcome?
+## _Tell us about a recent issue you debugged or a problem you solved. How did you go about debugging it? What tools did you use? What was the outcome?_
 
 
 ## 🔗 References
