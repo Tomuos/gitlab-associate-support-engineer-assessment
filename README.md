@@ -140,7 +140,64 @@ git commit -m "fourth commit"
 
 ## Write a brief blog post for GitLab that explains what Git is and what it can do for you. (Note: This is just a scenario for you to demonstrate your written skills and ability to explain technical topics. We are not using these assessments for anything other than the recruitment process.).
 
+![Title banner with Git logo, GitLab logo, and author Tom Burns-T](images/blog_banner.png)
 
+
+
+
+Hey, I’m Tom 👋
+
+I’ve been asked to write a blog post for [GitLab](https://gitlab.com) about Git:  
+**What is it? What does it actually do for you?**
+
+Git is a tool — specifically, something called version control. I remember the first time I heard that phrase. One vague explanation led to another, and I still wasn’t sure what it actually meant.
+
+So let’s break it down.
+
+---
+
+## What is Version Control?
+
+Version control is a way of tracking and managing changes in coding projects.
+
+>_Maybe you read or perhaps you play video games. 
+You can use a bookmark to save your place in a book and if your a true 90's kid like me you would use a save point in the game._ 
+
+Git lets you:
+- Save your progress
+- Go back to earlier versions
+- Collaborate with others without stepping on each other’s toes
+
+Imagine a team working together on a piece of software. To keep things stable, they don’t all edit the same copy of the code. Instead, they each create a **branch** — a separate version of the project — to work on specific features.
+
+Once a feature is ready, they submit it for review. If everything looks good, it’s **merged** into the main branch — the stable version of the code.
+
+---
+
+## Why It Matters
+
+Mistakes happen. That’s normal.
+
+With Git, you can trace exactly what changed, when, and who did it. You can fix issues or roll back to a working version — without disrupting the whole team.
+
+---
+
+## So What Does Git Do for You?
+
+It gives you:
+- Confidence to experiment
+- A safety net when things go wrong
+- A timeline of every step you and your team take
+
+
+
+So when I say *Git is a version control tool*, I hope it now means something more useful than it did the first time you heard it.
+
+
+---
+# Question #4
+
+## Tell us about a recent issue you debugged or a problem you solved. How did you go about debugging it? What tools did you use? What was the outcome?
 
 
 ## 🔗 References
