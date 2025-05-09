@@ -83,7 +83,7 @@ now you can run the script and it should provide name(s) and directories.
 
 ## _We have sent you an image named `git_history.v3.png` showing a Git commit graph. What sequence of Git commands could have produced the commit graph depicted in the image?_
 
-![Example of commit history](images/git_history.v3_S.png)
+![Example of commit history](images/git_history.v3_s.png)
 
 ---
 
