@@ -322,3 +322,5 @@ I have a working Minimum Viable Product (MVP) that covers most written language 
   (https://youtu.be/pGK2EuLXL7A?si=Xd06fb0r0_AfIjzS)
 
   - **How to write technical blog posts - talk by Quincy Larson**(https://youtu.be/YODPgBadj80?si=XIneIzcm8RXd8gyQ)
+
+
